@@ -1,4 +1,5 @@
 from pyspark import SparkContext
+
 sc = SparkContext(master="local", appName="First App")
 
 def TakeOneField(Vecteur):
@@ -31,7 +32,9 @@ def Lecture_File_RDD():
     print(MyRDD1.take(5))
     print(MyRDD5.take(5))
 
-Lecture_File_RDD()
+
+
+#Lecture_File_RDD()
 
 
 
